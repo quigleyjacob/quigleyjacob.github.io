@@ -1,0 +1,74 @@
+body {
+  background-color: #4682B4;
+}
+
+.image {
+  margin: 0 auto;
+  position: absolute;
+  width: 98.5%;
+  height: 70%;
+  background-image: url("https://c1.staticflickr.com/9/8690/17275578342_4109c2af85_b.jpg");
+  filter: blur(2px);
+}
+
+.contents {
+  position: relative;
+}
+
+.name {
+
+  padding: 10rem 5rem;
+  font-size: 5rem;
+  color: white;
+  font-weight: 700;
+  font-family: 'Noto Serif', serif;
+}
+
+.lower {
+  background-color: lightgrey;
+  display: block;
+}
+
+#profile {
+  border-radius: 50%;
+  padding: 25px;
+}
+
+.info {
+  font-family: 'Noto Serif', serif;
+  float: right;
+  padding-top: 3rem;
+  padding-right: 15rem;
+}
+
+a {
+  text-decoration: none;
+  display: inline;
+}
+
+#buttons {
+  width: 50px;
+  display: flex;
+}
+
+.button {
+  display: block;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  margin: 5px;
+  color: white;
+}
+
+#twitter {
+  color: #1dcaff;
+}
+#facebook {
+  color: #3b5998;
+}
+#linked {
+  color: #0077b5;
+}
+#github {
+  color: #6e5494;
+}
